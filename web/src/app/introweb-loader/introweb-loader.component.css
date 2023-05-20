@@ -1,0 +1,38 @@
+.body{
+    background: linear-gradient(238deg, #eeb5cc, #f5d58f, #f7d5c1, #f5b58a, #b195ba);
+    background-size: 1000% 1000%;
+    -webkit-animation: GradientBackground 24s ease infinite;
+    -moz-animation: GradientBackground 24s ease infinite;
+    -o-animation: GradientBackground 24s ease infinite;
+    animation: GradientBackground 24s ease infinite;
+    background-attachment: fixed; 
+    margin: 0 auto;
+    padding-top: 10%;
+}
+@-webkit-keyframes GradientBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes GradientBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes GradientBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes GradientBackground {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+h1{
+    font-family: Simplon Norm,Helvetica Neue,Helvetica,sans-serif;
+    font-size:  120px;
+    color: azure;
+    text-align: center;
+}
