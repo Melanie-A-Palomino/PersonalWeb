@@ -1,5 +1,5 @@
 .body{
-    background: linear-gradient(238deg, #eeb5cc, #f5d58f, #f7d5c1, #f5b58a, #b195ba);
+    background: linear-gradient(238deg, #eeb5cc, #f7d5c1, #f5b58a, #b195ba);
     background-size: 1000% 1000%;
     -webkit-animation: GradientBackground 24s ease infinite;
     -moz-animation: GradientBackground 24s ease infinite;
@@ -7,7 +7,9 @@
     animation: GradientBackground 24s ease infinite;
     background-attachment: fixed; 
     margin: 0 auto;
-    padding-top: 10%;
+    padding: auto;
+    padding-top: 25px;
+    padding-bottom: 9%;
 }
 @-webkit-keyframes GradientBackground {
     0%{background-position:0% 50%}
@@ -29,10 +31,33 @@
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-
 h1{
     font-family: Simplon Norm,Helvetica Neue,Helvetica,sans-serif;
     font-size:  120px;
     color: azure;
     text-align: center;
+}
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:  50px;
+    color: azure;
+    text-align: center;
+}
+.button {
+    border-radius: 50%;
+    border: 1px solid white !important;
+    background-color: transparent;
+    text-align: center;
+    height: 60px;
+    width: 150px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%); 
+    background-color: transparent;
+}
+.space {
+    display: inline-block;
+    height: 50px;
+    width: auto;
 }
