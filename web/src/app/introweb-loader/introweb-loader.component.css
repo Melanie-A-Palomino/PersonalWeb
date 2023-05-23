@@ -8,8 +8,8 @@
     background-attachment: fixed; 
     margin: 0 auto;
     padding: auto;
-    padding-top: 25px;
-    padding-bottom: 9%;
+    padding-top: 20px;
+    padding-bottom: 6%;
 }
 @-webkit-keyframes GradientBackground {
     0%{background-position:0% 50%}
@@ -32,14 +32,15 @@
     100%{background-position:0% 50%}
 }
 h1{
-    font-family: Simplon Norm,Helvetica Neue,Helvetica,sans-serif;
-    font-size:  120px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+    font-size:  100px;
     color: azure;
     text-align: center;
 }
 h2{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:  50px;
+    font-family: 'Source Code Pro', monospace;
+    font-size:  35px;
     color: azure;
     text-align: center;
 }
@@ -51,7 +52,7 @@ h2{
     width: 190px;
     cursor: pointer;
     position: absolute;
-    left: 49%;
+    left: 50%;
     transform: translate(-50%); 
     background-color: transparent;
     text-align: center;
@@ -85,7 +86,7 @@ h2{
 } */
 .space {
     display: inline-block;
-    height: 50px;
+    height: 55px;
     width: auto;
 }
 .wrapper{
@@ -104,6 +105,7 @@ a{
     height: 50px;
     line-height: 50px;
     font-weight: bold;
+    font-size: 18px;
     text-decoration: none;
     background: #b195ba;
     text-align: center;
@@ -140,8 +142,9 @@ a{
     width: 300px;
     border: 5px solid #b195ba;
     background: transparent;
-    color: black;
+    color: #b195ba;
     font-size: 20px;
+    cursor: pointer;
   }
   
   a:hover + .icon{

@@ -8,4 +8,8 @@ import { Router } from '@angular/router';
 })
 export class IntrowebLoaderComponent {
   constructor(private router : Router){}
+
+  goToMain(){
+    this.router.navigateByUrl('main');
+  }
 }
