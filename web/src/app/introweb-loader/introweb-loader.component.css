@@ -32,14 +32,14 @@
     100%{background-position:0% 50%}
 }
 h1{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Cinzel Decorative', cursive;
     letter-spacing: 2px;
-    font-size:  100px;
+    font-size:  122px;
     color: azure;
     text-align: center;
 }
 h2{
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Montserrat', sans-serif;
     font-size:  35px;
     color: azure;
     text-align: center;
@@ -91,7 +91,7 @@ h2{
 }
 .wrapper{
     position: fixed;
-    left: 48%;
+    left: 49%;
     transform: translate(-50%, -50%);
   }
   
@@ -116,7 +116,7 @@ a{
     transition: all .35s;
 }
   
-  .icon{
+.icon{
     width: 50px;
     height: 50px;
     border: 3px solid transparent;
@@ -126,9 +126,9 @@ a{
     top: 0;
     z-index: -1;
     transition: all .35s;
-  }
+}
   
-  .icon svg{
+.icon svg{
     width: 30px;
     position: absolute;
     top: calc(50% - 15px);
@@ -136,18 +136,18 @@ a{
     transform: rotate(-45deg);
     fill: #b195ba;
     transition: all .35s;
-  }
+}
   
-  a:hover{
+a:hover{
     width: 300px;
     border: 5px solid #b195ba;
     background: transparent;
     color: #b195ba;
     font-size: 20px;
     cursor: pointer;
-  }
+}
   
-  a:hover + .icon{
+a:hover + .icon{
     border: 5px solid #b195ba;
     right: -15%;
-  }
+}

@@ -1,0 +1,24 @@
+.mainbody{
+    background-color: #FDF3DD;
+}
+
+#contact-icon{
+    /*#E8CACE pink*/
+    filter: invert(92%) sepia(5%) saturate(1830%) hue-rotate(302deg) brightness(98%) contrast(85%);
+}
+#about-icon{
+    /*#D6E8F7 light blue*/
+    filter: invert(86%) sepia(24%) saturate(173%) hue-rotate(171deg) brightness(103%) contrast(94%);
+}
+#exp-icon{
+    /*#CAAACD purple*/
+    filter: invert(78%) sepia(11%) saturate(660%) hue-rotate(247deg) brightness(93%) contrast(83%);
+}
+#proj-icon{
+    /*#FDF3DD white*/
+    filter: invert(93%) sepia(18%) saturate(414%) hue-rotate(322deg) brightness(104%) contrast(98%);
+}
+
+.categories{
+    font-family: 'Pacifico', cursive;
+}
