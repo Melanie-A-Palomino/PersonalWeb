@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-introweb-loader',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./introweb-loader.component.css']
 })
 export class IntrowebLoaderComponent {
-
+  constructor(private router : Router){}
 }

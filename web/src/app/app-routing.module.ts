@@ -12,7 +12,8 @@ import { HttpClient } from '@angular/common/http'
 
 const routes : Routes = [
   {path: "", component: IntrowebLoaderComponent}, 
-  {path: "About", component: AboutComponent}
+  {path: "About", component: AboutComponent},
+  {path: "Contact", component: ContactComponent},
 ]
 
 @NgModule({
