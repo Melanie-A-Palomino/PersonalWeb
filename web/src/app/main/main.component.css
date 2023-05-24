@@ -38,54 +38,84 @@
 }
 .row{
     display: flex;
+    padding-left: 30px;
 }
 .column{
+    /* border: 1px solid black; */
    flex: 50%; 
    text-align: center;
    padding-left: 30px;
+   width: 80%;
 }
 
 .description{
+    text-align: center;
     margin-top: 160px;
     font-size: 25px;
     margin-right: 50px;
     font-weight: 600;
     font-family: 'Montserrat Alternates', sans-serif;
+    max-width: fit-content;
 }
+
+.circle { 
+    width: 450px;
+    height: 450px;
+    background: radial-gradient(#a6c3d5,#f6c1db); 
+    -moz-border-radius: 70px; 
+    -webkit-border-radius: 70px; 
+    border-radius: 50%;
+    top: 15px;
+    -webkit-transform: skew(27deg);
+ }
+
 
 .profile{
     --image-size: 450px;
     width: var(--image-size);
     height: var(--image-size);
-    background-image: url("..\..\assets\pictures\Mel_AI.jpeg");
+    background-image: url("..\..\assets\pictures\Profile_Picture.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 75% 25% / 50%;
+    -webkit-transform: skew(-27deg);
+}
+
+
+
+.categories .card{
+    min-width: fit-content;
 }
 .img-wrapper{
-    margin-top: 30px;
-    padding-left: 50px;
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 40px;
+    /* margin-top: 30px;
+    padding-left: 50px; */
 }
 #contact-icon{
     width: 150px;
-    /*#f6c1db pink*/
-    filter: invert(81%) sepia(19%) saturate(526%) hue-rotate(288deg) brightness(101%) contrast(93%);
+    /*#a6c3d5 light blue*/
+    filter: invert(88%) sepia(7%) saturate(1731%) hue-rotate(174deg) brightness(93%) contrast(79%);
+    
 }
 #about-icon{
     width: 150px;
-    /*#a6c3d5 light blue*/
-    filter: invert(88%) sepia(7%) saturate(1731%) hue-rotate(174deg) brightness(93%) contrast(79%);
-}
+        /*#d4ccdb  green #88c589 */
+    filter: invert(72%) sepia(35%) saturate(369%) hue-rotate(72deg) brightness(95%) contrast(87%); 
+}   
 #exp-icon{
     width: 150px;
-    /*#d4ccdb purple*/
-    filter: invert(91%) sepia(13%) saturate(178%) hue-rotate(230deg) brightness(89%) contrast(92%);
+    /*#f6c1db pink*/
+    filter: invert(81%) sepia(19%) saturate(526%) hue-rotate(288deg) brightness(101%) contrast(93%);
+    
 }
 #proj-icon{
     width: 150px;
-    /*#FDF3DD white  green #88c589 filter: invert(72%) sepia(35%) saturate(369%) hue-rotate(72deg) brightness(95%) contrast(87%);*/
-    filter: invert(93%) sepia(18%) saturate(414%) hue-rotate(322deg) brightness(104%) contrast(98%);
+     /*#FDF3DD white */
+     filter: invert(93%) sepia(18%) saturate(414%) hue-rotate(322deg) brightness(104%) contrast(98%); 
 }
 .categories h5{
     font-family: 'Pacifico', cursive;
@@ -94,9 +124,10 @@
     padding-bottom: 0;
     text-align: center;
 }
+
 .space {
     display: inline-block;
-    height: 60px;
+    height: 80px;
     width: auto;
 }
 .card:hover{
