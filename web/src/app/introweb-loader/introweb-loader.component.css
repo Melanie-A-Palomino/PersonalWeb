@@ -1,15 +1,13 @@
 .body{
-    background: linear-gradient(238deg, #eeb5cc, #f7d5c1, #f5b58a, #b195ba);
+    background: linear-gradient(238deg, #f6c1db, #a6c3d5, #88c580, #d4ccdb);
     background-size: 1000% 1000%;
     -webkit-animation: GradientBackground 24s ease infinite;
     -moz-animation: GradientBackground 24s ease infinite;
     -o-animation: GradientBackground 24s ease infinite;
     animation: GradientBackground 24s ease infinite;
     background-attachment: fixed; 
-    margin: 0 auto;
-    padding: auto;
-    padding-top: 20px;
-    padding-bottom: 6%;
+    padding-top: 5%;
+    padding-bottom: 10%;
 }
 @-webkit-keyframes GradientBackground {
     0%{background-position:0% 50%}
@@ -44,46 +42,6 @@ h2{
     color: azure;
     text-align: center;
 }
-.button {
-    border-radius: 50%;
-    border: 1px solid white !important;
-    background-color: transparent;
-    height: 90px;
-    width: 190px;
-    cursor: pointer;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%); 
-    background-color: transparent;
-    text-align: center;
-    color: azure;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
-/* .button:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    transform: translate(-49%, -1px);
-} */
-/* .button:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
-}
-
-.btn-animate {
-    animation: moveInBottom 5s ease-out;
-    animation-fill-mode: backwards;
-}
-@keyframes moveInBottom {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-} */
 .space {
     display: inline-block;
     height: 55px;
@@ -103,16 +61,16 @@ a{
     display: block;
     width: 250px;
     height: 50px;
-    line-height: 50px;
+    line-height: 40px;
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
-    background: #b195ba;
+    background: #d4ccdb;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border: 3px solid #b195ba;
+    border: 3px solid #d4ccdb;
     transition: all .35s;
 }
   
@@ -134,20 +92,20 @@ a{
     top: calc(50% - 15px);
     left: calc(50% - 15px);
     transform: rotate(-45deg);
-    fill: #b195ba;
+    fill: #d4ccdb;
     transition: all .35s;
 }
   
 a:hover{
     width: 300px;
-    border: 5px solid #b195ba;
+    border: 5px solid #d4ccdb;
     background: transparent;
-    color: #b195ba;
+    color: rgba(0, 0, 0, 0.62);
     font-size: 20px;
     cursor: pointer;
 }
   
 a:hover + .icon{
-    border: 5px solid #b195ba;
+    border: 5px solid #d4ccdb;
     right: -15%;
 }

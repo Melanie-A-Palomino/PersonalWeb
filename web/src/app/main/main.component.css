@@ -25,14 +25,14 @@
 .name h1{
     font-size: 65px;
     letter-spacing: 8px;
-    color: #CAAACD;
+    color: #d4ccdb;
     font-weight: 700;
 }
 
 .name h2{
     font-size: 25px;
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #CB962E;
+    color: #88c589;
     font-weight: 600;
     
 }
@@ -69,22 +69,22 @@
 }
 #contact-icon{
     width: 150px;
-    /*#E8CACE pink*/
-    filter: invert(92%) sepia(5%) saturate(1830%) hue-rotate(302deg) brightness(98%) contrast(85%);
+    /*#f6c1db pink*/
+    filter: invert(81%) sepia(19%) saturate(526%) hue-rotate(288deg) brightness(101%) contrast(93%);
 }
 #about-icon{
     width: 150px;
-    /*#D6E8F7 light blue*/
-    filter: invert(86%) sepia(24%) saturate(173%) hue-rotate(171deg) brightness(103%) contrast(94%);
+    /*#a6c3d5 light blue*/
+    filter: invert(88%) sepia(7%) saturate(1731%) hue-rotate(174deg) brightness(93%) contrast(79%);
 }
 #exp-icon{
     width: 150px;
-    /*#CAAACD purple*/
-    filter: invert(78%) sepia(11%) saturate(660%) hue-rotate(247deg) brightness(93%) contrast(83%);
+    /*#d4ccdb purple*/
+    filter: invert(91%) sepia(13%) saturate(178%) hue-rotate(230deg) brightness(89%) contrast(92%);
 }
 #proj-icon{
     width: 150px;
-    /*#FDF3DD white*/
+    /*#FDF3DD white  green #88c589 filter: invert(72%) sepia(35%) saturate(369%) hue-rotate(72deg) brightness(95%) contrast(87%);*/
     filter: invert(93%) sepia(18%) saturate(414%) hue-rotate(322deg) brightness(104%) contrast(98%);
 }
 .categories h5{
