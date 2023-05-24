@@ -1,7 +1,28 @@
-.mainbody{
+.html, .mainbody {
+    height: 100%;
     background-color: #FDF3DD;
 }
 
+.html {
+    display: table;
+    margin: auto;
+    background-color: #FDF3DD;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.mainbody{
+    background-color: #FDF3DD;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.name p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #CB962E;
+    font-weight: 400;
+    font-size: 20px;
+}
 #contact-icon{
     /*#E8CACE pink*/
     filter: invert(92%) sepia(5%) saturate(1830%) hue-rotate(302deg) brightness(98%) contrast(85%);
@@ -19,6 +40,10 @@
     filter: invert(93%) sepia(18%) saturate(414%) hue-rotate(322deg) brightness(104%) contrast(98%);
 }
 
-.categories{
+.categories h5{
     font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 0;
+    text-align: center;
 }
