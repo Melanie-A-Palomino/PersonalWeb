@@ -44,9 +44,21 @@
    text-align: center;
 }
 
-#ai-pic{
-    width: 350px;
-    height: 450px;
+.description{
+    margin-top: 190px;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.profile{
+    --image-size: 450px;
+    width: var(--image-size);
+    height: var(--image-size);
+    background-image: url("..\..\assets\pictures\Mel_AI.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 75% 25% / 50%;
 }
 #contact-icon{
     /*#E8CACE pink*/
