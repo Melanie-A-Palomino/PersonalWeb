@@ -18,23 +18,23 @@
 
 .name p{
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #CB962E;
-    font-weight: 600;
-    font-size: 20px;
-    margin-bottom: -5px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 .name h1{
-    font-size: 55px;
+    font-size: 65px;
     letter-spacing: 8px;
     color: #CAAACD;
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 .name h2{
     font-size: 25px;
     font-family: 'Montserrat Alternates', sans-serif;
-    color: black;
-    font-weight: 400;
+    color: #CB962E;
+    font-weight: 600;
+    
 }
 .row{
     display: flex;
@@ -42,11 +42,14 @@
 .column{
    flex: 50%; 
    text-align: center;
+   padding-left: 30px;
 }
 
 .description{
-    margin-top: 190px;
-    font-size: 20px;
+    margin-top: 160px;
+    font-size: 25px;
+    margin-right: 50px;
+    font-weight: 600;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
@@ -60,31 +63,59 @@
     background-size: cover;
     border-radius: 75% 25% / 50%;
 }
+.img-wrapper{
+    margin-top: 30px;
+    padding-left: 50px;
+}
 #contact-icon{
+    width: 150px;
     /*#E8CACE pink*/
     filter: invert(92%) sepia(5%) saturate(1830%) hue-rotate(302deg) brightness(98%) contrast(85%);
 }
 #about-icon{
+    width: 150px;
     /*#D6E8F7 light blue*/
     filter: invert(86%) sepia(24%) saturate(173%) hue-rotate(171deg) brightness(103%) contrast(94%);
 }
 #exp-icon{
+    width: 150px;
     /*#CAAACD purple*/
     filter: invert(78%) sepia(11%) saturate(660%) hue-rotate(247deg) brightness(93%) contrast(83%);
 }
 #proj-icon{
+    width: 150px;
     /*#FDF3DD white*/
     filter: invert(93%) sepia(18%) saturate(414%) hue-rotate(322deg) brightness(104%) contrast(98%);
 }
 .categories h5{
     font-family: 'Pacifico', cursive;
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 30px;
     padding-bottom: 0;
     text-align: center;
 }
 .space {
     display: inline-block;
-    height: 55px;
+    height: 60px;
     width: auto;
+}
+.card:hover{
+    color: azure;
+    cursor: pointer;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-top: 15px;
+}
+
+.card:hover img{
+    opacity: 0.8;
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
 }
