@@ -2,15 +2,14 @@
     height: 100%;
     background-color: #FDF3DD;
 }
-
 .html {
     display: table;
     margin: auto;
     background-color: #FDF3DD;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 180px;
+    padding-left: 180px;
 }
-
 .mainbody{
     background-color: #FDF3DD;
     display: table-cell;
@@ -20,8 +19,34 @@
 .name p{
     font-family: 'Montserrat Alternates', sans-serif;
     color: #CB962E;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
+    margin-bottom: -5px;
+}
+.name h1{
+    font-size: 55px;
+    letter-spacing: 8px;
+    color: #CAAACD;
+    font-weight: bolder;
+}
+
+.name h2{
+    font-size: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+.row{
+    display: flex;
+}
+.column{
+   flex: 50%; 
+   text-align: center;
+}
+
+#ai-pic{
+    width: 350px;
+    height: 450px;
 }
 #contact-icon{
     /*#E8CACE pink*/
@@ -39,11 +64,15 @@
     /*#FDF3DD white*/
     filter: invert(93%) sepia(18%) saturate(414%) hue-rotate(322deg) brightness(104%) contrast(98%);
 }
-
 .categories h5{
     font-family: 'Pacifico', cursive;
     font-size: 30px;
     padding-top: 30px;
     padding-bottom: 0;
     text-align: center;
+}
+.space {
+    display: inline-block;
+    height: 55px;
+    width: auto;
 }
