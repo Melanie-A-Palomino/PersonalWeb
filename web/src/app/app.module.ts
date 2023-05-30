@@ -45,7 +45,7 @@ import { MainComponent } from './main/main.component';
     BrowserModule,
     AppRoutingModule, 
     RouterModule, 
-    MdbCollapseModule
+    MdbCollapseModule, MdbAccordionModule, MdbCarouselModule, MdbCheckboxModule, MdbDropdownModule, MdbFormsModule, MdbModalModule, MdbPopoverModule, MdbRadioModule, MdbRangeModule, MdbRippleModule, MdbScrollspyModule, MdbTabsModule, MdbTooltipModule, MdbValidationModule, BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
