@@ -1,0 +1,20 @@
+Software Engineer, Revature LLC   						    December 2022 – June 2023
+Optimized the employee ticket reimbursement process by building a robust internal system in DotNet, resulting in a 30% increase in accuracy and reducing reimbursement processing time by 60%.
+Cooperated to the development of Revature's banking application in an Agile development lifecycle within a team of 12.
+Conducted rigorous program testing encompassing both unit and integration testing, ensuring robustness and seamless integration of software functionalities.
+Instructor, IDTech 								 	     April 2023 - Present
+Taught Python, Java, Scratch, and AI to students, accumulating over 60 teaching hours.
+Designed and delivered interactive lessons, projects, and activities to engage students and foster programming language proficiency.
+Pioneered effective communication techniques, utilizing non-verbal cues and clear instructions to manage a diverse classroom of 8+ students, resulting in a 20% increase in student engagement and academic performance.
+Collaborated with instructors and staff to ensure smooth program operations and exceptional student experiences.
+Backend Developer Intern, The Comfort Company SAC  			       June 2022 - February 2023
+Architected and implemented a C# and SQL-powered backend for the Product Monitoring process, revolutionizing the manipulation of 200+ clothing items with improved speed and simplicity, leading to a 30% increase in productivity.
+Engaged in daily SCRUM meetings in a high-performing team of 4, enabling efficient project requirement discussions to drive successful outcomes. 
+Developed and implemented internal services using C#, .NET, and Azure to streamline Production Management, resulting in a 15% reduction in production time.
+Software Developer Intern, Corseba S.A.C  					    June 2021 - September 2021
+Modernized and maintained internal system alongside senior software developer to streamline the Provider Account Management & Distribution process using Java.
+Partook in weekly meetings with company director and senior developers to review backlogs and issues. 
+Project Manager Assistant, Silva Construction LLC  			             June 2017 - April 2019
+Managed the progress, costs, and successful completion of 30+ projects, adeptly resolving any arising challenges to ensure seamless execution.
+Maintained open communication channels with suppliers, service providers, and customers, guaranteeing a superior experience and fostering strong working relationships.
+Facilitated daily meetings with crew members, fostering a collaborative environment to discuss objectives, prioritize goals, reinforce safety guidelines and ensure compliance of regulations. 

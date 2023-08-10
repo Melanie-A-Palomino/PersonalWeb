@@ -27,7 +27,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { MainComponent } from './main/main.component';
-
+import * as fs from 'node:fs';
 
 @NgModule({
   declarations: [
